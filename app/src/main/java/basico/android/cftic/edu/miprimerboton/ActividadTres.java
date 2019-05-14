@@ -13,8 +13,8 @@ public class ActividadTres extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividad_tres);
         Log.d("MIAPP", "Estoy en oncreate");
-        String valor = getResources().getString(R.string.saludo);
-        Log.d("MIAPP", "Saludo = " + valor);
+        //String valor = getResources().getString(R.string.saludo);
+        //Log.d("MIAPP", "Saludo = " + valor);
     }
 
     @Override
